@@ -3,6 +3,11 @@
   min-width: 1280px;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0;
   background-color: #2a2c2f;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
 }

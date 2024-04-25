@@ -7,11 +7,10 @@
   justify-content: flex-start;
   position: relative;
 }
+
 .intro__title {
   padding-top: 40px;
   padding-bottom: 0px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -22,8 +21,6 @@
 .intro__text-subtitle {
   display: flex;
   justify-content: flex-end;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -34,8 +31,6 @@
 .intro__text-author {
   display: flex;
   justify-content: flex-end;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -48,11 +43,36 @@
   text-align: left;
   padding: 0 auto;
   padding-bottom: 40px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: white;
   max-width: 722px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    margin: 0;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    font-size: 45px;
+    padding: 0 24px;
+  }
+
+  .intro__text-subtitle {
+    max-width: 720px;
+    padding: 0 24px;
+  }
+
+  .intro__text-author {
+    max-width: 720px;
+    padding: 0 24px;
+  }
+
+  .intro__text {
+    padding: 0 24px;
+  }
 }

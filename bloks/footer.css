@@ -1,9 +1,11 @@
-.footer__copyright {
+.footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  margin: 0 auto;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.footer__copyright {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,4 +13,10 @@
   line-height: 26px;
   color: white;
   max-width: 166px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 768px;
+  }
 }
