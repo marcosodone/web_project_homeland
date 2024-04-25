@@ -60,3 +60,37 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin: 0;
+  }
+
+  .lead__title {
+    width: 288px;
+    font-size: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0;
+    padding-top: 16px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .lead__subtitle {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    line-height: 20px;
+  }
+
+  .lead__image {
+    width: 320px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+  }
+}
