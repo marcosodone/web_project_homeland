@@ -1,15 +1,15 @@
 .lead {
-  margin: 0;
   padding: 0;
   padding-top: 40px;
-  max-width: 984;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .lead__title {
-  margin: 0 auto; /* centralizar*/
+  margin: 0 auto; /*centralizar*/
   font-weight: 900;
   font-size: 96px;
   line-height: 1em;
@@ -31,8 +31,7 @@
 }
 
 .lead__image {
-  width: 984px;
-  height: 615px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -54,8 +53,6 @@
   }
 
   .lead__image {
-    width: 768px;
-    height: 480px;
     margin: 0;
     padding: 0;
   }
@@ -88,8 +85,6 @@
   }
 
   .lead__image {
-    width: 320px;
-    height: 200px;
     margin: 0;
     padding: 0;
   }
