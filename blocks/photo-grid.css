@@ -17,11 +17,11 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .photo__grid {
     column-gap: 10px;
     row-gap: 10px;
-    width: 720px;
+    max-width: 720px;
     grid-template-columns: 50% 50%;
   }
 
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 320px) {
   .photo__grid {
     row-gap: 1px;
     margin: 0;
