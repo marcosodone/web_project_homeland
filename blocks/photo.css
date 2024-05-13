@@ -7,7 +7,7 @@
 .photo__grid {
   padding-top: 40px;
   padding: 0;
-
+  padding-bottom: 40px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
