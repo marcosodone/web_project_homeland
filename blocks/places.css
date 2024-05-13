@@ -30,7 +30,7 @@
   margin: 0;
 }
 
-.place__creator-title {
+.places__creator-title {
   font-family: "Inter", Arial, sans-serif;
   font-size: 12px;
   padding-bottom: 8px;
@@ -38,7 +38,7 @@
   color: #aaaaaa;
 }
 
-.place__creator-author {
+.places__creator-author {
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   margin: 0;
